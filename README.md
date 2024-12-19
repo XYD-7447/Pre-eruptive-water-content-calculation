@@ -12,19 +12,19 @@ The input `data` should contain three files, including:
 
 1. Clinopyroxene composition (file: `data/cpx_composition`)
 
-**#SiO2	 TiO2	Al2O3 FeOt	MnO	MgO	CaO Na2O K2O Cr2O3**
+**#SiO<sub>2</sub>	 TiO<sub>2</sub>	Al<sub>2</sub>O<sub>3</sub> FeO<sub>t</sub>	MnO	MgO	CaO Na<sub>2</sub>O K<sub>2</sub>O Cr<sub>2</sub>O<sub>3</sub>**
 
 51.81 	0.14 	1.69 	7.82 	0.39 	14.25 	24.08 	0.30 	0.01 	0.00 ...
 
 2. Melt composition equilibrated with cpx (file: `data/liquid_composition`). **Note**:  1 and 2 should be matched one by one.
 
-**#SiO2	 TiO2	Al2O3 FeOt	MnO	MgO	CaO	Na2O	K2O	Cr2O3 P2O5**
+**#SiO<sub>2</sub>	 TiO<sub>2</sub>	Al<sub>2</sub>O<sub>3</sub> FeO<sub>t</sub>	MnO	MgO	CaO	Na<sub>2</sub>O	K<sub>2</sub>O	Cr<sub>2</sub>O<sub>3</sub> P<sub>2</sub>O<sub>5</sub>**
 
 44.08	2.43	13.19	17.04	0.27	7.61	11.05	2.16	0.18	0	0.25 ...
 
 3. Primary melt composition (file: `data/primary_melt_composition`):
 
-**# SiO2 TiO2 Al2O3 TFe2O3 MgO CaO Na2O K2O P2O5 TOTAL**
+**# SiO<sub>2</sub> TiO<sub>2</sub> Al<sub>2</sub>O<sub>3</sub> TFe<sub>2</sub>O<sub>3</sub> MgO CaO Na<sub>2</sub>O K<sub>2</sub>O P<sub>2</sub>O<sub>5</sub> TOTAL**
 
 52.74 	2.45 	13.88 	8.49 	0.11 	6.17 	5.50 	3.86 	5.53 	99.69 
 ...
@@ -34,6 +34,6 @@ The input `data` should contain three files, including:
 
 **Manual**:
 1. Copy and Paste your primary melt composition and cpx-melt data into the three files mentioned above respectively.
-2. Change the parameters in `config.py`. The changeable parameters include a melt Fe3+ proportion (Fe3+/FeT), errors of the thermobarometers, intended H2O content range and increment, and the size of unit.
+2. Change the parameters in `config.py`. The changeable parameters include a melt Fe</sub>3+ proportion (Fe<sup>3+</sup>/FeT), errors of the thermobarometers, intended H<sub>2</sub>O content range and increment, and the size of unit.
 3. Run `demo.py` to get the outcome.
-4. The outcome is a figure showing a scatter of H2O content (.wt%) and overlap area as well as printing them on the screen.
+4. The outcome is a figure showing a scatter of H<sub>2</sub>O content (.wt%) and overlap area as well as printing them on the screen.
